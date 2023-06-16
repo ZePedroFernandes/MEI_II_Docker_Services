@@ -14,7 +14,10 @@
 - Dashboards - http://localhost:1880/ui
  
 ## Mosquitto
-Listen to a Mosquito topic via cmd
+Listen to a Mosquito topic via cmd  
+Download site: https://mosquitto.org/download/  
+Install folder: C:\Program Files\mosquitto  
+Add the install folder to the PATH environment variable
 
 ```bash
 mosquitto_sub -h localhost -t "sensor/temperature"
