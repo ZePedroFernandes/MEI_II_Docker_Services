@@ -43,6 +43,7 @@ services:
     command: ["crate", "-Cnode.store.allow_mmap=false"]
     ports:
       - 4200:4200
+      - 5432:5200
     volumes:
       - ./crate/data:/data
       - ./crate/blobs:/blobs
