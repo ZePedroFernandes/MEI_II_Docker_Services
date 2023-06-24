@@ -6,3 +6,4 @@ odoo/*
 postgres-odoo/*
 mosquitto/log/*
 mosquitto/data/*
+grafana/storage/*
